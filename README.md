@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1116943d-5db0-4ef1-9449-e44f520fdfdb)![image](https://github.com/user-attachments/assets/51922b1b-cbe1-4624-9d56-bfd9612933f1)# soa and ISOA
+# soa and ISOA
  This code is aimed at realizing SOA algorithm to optimize parameters in svm. After that, we will compare Grid-search with SOA, in terms of time and accuracy.Finally, we find SOA algorithm still has some parameters to be optimized, so we combine genetic algorithm with SOA. This improved algorithm archieved better result.
 ## Chapter One   data processing 
 ### **1.1 data discription**
@@ -59,4 +59,5 @@ The algorithm first generates the initial seagull group, calculates the fitness 
 |迭代次数|80|80|20|20|
 |AUC|0.853|0.811|0.856|0.821|
 |准确率|0.871|0.832|0.906|0.875|
+<br>
 Compared with SOA-SVM, ISA-SVM shows some performance improvement. However, this performance boost comes at the cost of adding extra steps, which results in an increase in the execution time of the algorithm. It is worth noting that in order to strike a balance between time overhead and performance improvement, we chose to set the number of iterations of ISA-SVM to 20. This choice was based on consideration of the algorithm's runtime, ensuring that the ISA-SVM execution time at 20 iterations is comparable to the SOA-SVM execution time at 80 iterations.
