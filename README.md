@@ -1,4 +1,4 @@
-# soa and ISOA
+# SOA and ISOA
  This code is aimed at realizing SOA algorithm to optimize parameters in svm. After that, we will compare Grid-search with SOA, in terms of time and accuracy.Finally, we find SOA algorithm still has some parameters to be optimized, so we combine genetic algorithm with SOA. This improved algorithm archieved better result.
 ## Chapter One   data processing 
 ### **1.1 data discription**
