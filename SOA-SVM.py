@@ -83,7 +83,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import confusion_matrix, roc_auc_score, f1_score, accuracy_score
 import seaborn as sns
 import matplotlib.pyplot as plt
-data = pd.read_csv(r'C:\Users\12939\Desktop\毕业论文新\Scaled_Encoded_Final_dataset.csv')
+data = pd.read_csv(r'C:Scaled_Encoded_Final_dataset.csv')
 X = data.drop(columns="Attrition")
 y = data['Attrition']
 scaler = MinMaxScaler()
